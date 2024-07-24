@@ -1,0 +1,37 @@
+dateModified: 1721854633
+email:
+  fromEmail: guilleozan25@gmail.com
+  fromName: imagic
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  cargas:
+    hasUrls: true
+    name: cargas
+    settings:
+      path: '@webroot/cargas'
+    type: craft\fs\Local
+    url: '@web/cargas'
+meta:
+  __names__:
+    3c00910b-2e15-4588-8d72-72a4f8ca3506: 'Hero Title' # Hero Title
+    3d6014bd-e860-4bb8-95b4-74590772d8e6: Home # Home
+    3f37c0a5-bb86-4164-8d5a-12b6d5ebfe11: Common # Common
+    4cded286-e861-4ee6-9db4-fb2916e77e44: 'Hero Image' # Hero Image
+    5d2b1bee-effd-4089-8633-402e19744603: imagic # imagic
+    8c5d5fad-0196-4110-9f02-492e63407721: cargas # cargas
+    452c67a5-89bf-4d1c-9073-f2231edb1d50: Home # Home
+    5774f43b-13c3-439f-ab6a-7d96e1417097: Homepage # Homepage
+    7321a3fb-78fa-49a4-84de-eed2ff39f1e5: 'Public Schema' # Public Schema
+    c83ba7f6-71e6-40bb-a837-274759f86ac1: imagic # imagic
+system:
+  edition: solo
+  live: true
+  name: imagic
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

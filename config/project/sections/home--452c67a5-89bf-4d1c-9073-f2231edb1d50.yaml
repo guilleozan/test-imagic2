@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  5d2b1bee-effd-4089-8633-402e19744603: # imagic
+    enabledByDefault: true
+    hasUrls: true
+    template: home/_entry
+    uriFormat: home
+type: single

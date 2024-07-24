@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8"/>
+    <title>Imagic Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
+    <meta name="referrer" content="origin-when-cross-origin"/>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Swiper CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ siteUrl }}static/css/styles.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero d-flex justify-content-center align-items-center">
+        <div class="hero-title text-white text-center">Test imagic</div>
+    </div>
+
+    <!-- Swiper Slider -->
+    <div class="container my-5">
+        <swiper-container class="swiper-container" slides-per-view="1">
+            <swiper-slide class="d-flex justify-content-center align-items-center"><img src="{{ siteUrl }}static/images/1.png" alt="Slide 1"></swiper-slide>
+            <swiper-slide class="d-flex justify-content-center align-items-center"><img src="{{ siteUrl }}static/images/2.png" alt="Slide 2"></swiper-slide>
+            <swiper-slide class="d-flex justify-content-center align-items-center"><img src="{{ siteUrl }}static/images/3.png" alt="Slide 3"></swiper-slide>
+        </swiper-container>
+      
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ siteUrl }}static/js/main.js"></script>
+    
+   
+
+</body>
+</html>
